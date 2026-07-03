@@ -1,0 +1,10 @@
+{
+  "name": "test-repo-2",
+  "version": "1.0.0",
+  "description": "A tiny math utility library used by test-repo-1.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "license": "MIT"
+}
