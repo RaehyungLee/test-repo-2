@@ -1,0 +1,8 @@
+# Pulumi stack config (staging). ai_gateway Bedrock allowlist — keep in lockstep
+# with services/ai_gateway/litellm/litellm_config.yaml in the platform repo.
+config:
+  workloads:ai_gateway_bedrock_model_arns:
+    - us.anthropic.claude-opus-4-8
+    - us.anthropic.claude-sonnet-4-6
+    # NEW: authorizes the claude-fable-5 twin added on the platform side.
+    - us.anthropic.claude-fable-5
