@@ -1,0 +1,4 @@
+config:
+  workloads:ai_gateway_bedrock_model_arns:
+    - us.anthropic.claude-opus-4-8
+    - us.anthropic.claude-fable-6
